@@ -8,7 +8,7 @@ import '../Styles/Chatbot.css';
 import VoiceRecognition from "./VoiceRecognition";
 const ChatbotPage = () => {
   return (
-    <div className="Chat">
+    <div className="Chat my-4">
        <Chatbot
           config={config}
           actionProvider={ActionProvider}

@@ -18,8 +18,18 @@ const Noteitem = (props) => {
               updateNote(note)
             }}></i>
           </div>
-            <h6 className="card-subtitle mb-2 text-body-secondary">{note.imageUrl}</h6>
-            <h6 className="card-subtitle mb-2 text-body-secondary">{note.videoUrl}</h6>
+            <div className="card-subtitle mb-2 text-body-secondary">
+  {note.imageUrl && (
+    <a href={note.imageUrl} target="_blank" rel="noopener noreferrer" className="me-3">
+      Image
+    </a>
+  )}
+  {note.videoUrl && (
+    <a href={note.videoUrl} target="_blank" rel="noopener noreferrer">
+      Video
+    </a>
+  )}
+</div>
             <p className="card-text">{note.description} </p>
         </div>
         </div>
