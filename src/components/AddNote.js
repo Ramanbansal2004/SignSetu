@@ -64,7 +64,7 @@ const AddNote = (props) => {
         />
         <label htmlFor="floatingPassword">Video Url</label>
       </div>
-      <button disabled={note.title.length<5 || note.description.length<5} type="submit" className="btn btn-primary my-3" onClick={handleClick}>
+      <button disabled={note.title.length<2 || note.description.length<5} type="submit" className="btn btn-primary my-3" onClick={handleClick}>
         Submit
       </button>
     </div>
