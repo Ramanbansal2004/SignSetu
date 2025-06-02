@@ -8,6 +8,7 @@ import NoteState from './context/Notes/NoteState'
 import Login from './components/Login';
 import React, {useState} from 'react';
 import Signup from './components/Signup';
+import AddWord from './components/AddWord';
 function App() {
   const [alert, setAlert] = useState(null);
   const showAlert =(message, type)=> {
@@ -34,6 +35,10 @@ function App() {
             <Route exact
               path="/Chatbot"
               element= {<Chatbot />}
+            />
+            <Route exact
+              path="/AddWord"
+              element= {<AddWord />}
             />
             <Route exact
               path="/login"

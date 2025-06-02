@@ -11,7 +11,7 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="d-flex mb-3" onSubmit={handleSearch}>
+    <form className="d-flex mb-3 my-1" onSubmit={handleSearch}>
       <input
         className="form-control me-2"
         type="search"
@@ -20,7 +20,7 @@ const SearchBar = () => {
         value={query}
         onChange={(e) => setQuery(e.target.value)}
       />
-      <button className="btn btn-outline-success" type="submit">
+      <button className="btn btn-outline-primary" type="submit">
         Search
       </button>
     </form>
