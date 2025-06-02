@@ -38,7 +38,7 @@ function App() {
             />
             <Route exact
               path="/AddWord"
-              element= {<AddWord />}
+              element= {<AddWord showAlert={showAlert} />}
             />
             <Route exact
               path="/login"
