@@ -1,5 +1,5 @@
 import React from 'react'
-import Notes from './Notes';
+import Notes from '../components/Notes';
 export default function AddWord(props) {
   const {showAlert} = props;
   return (

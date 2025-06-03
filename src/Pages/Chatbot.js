@@ -5,7 +5,7 @@ import config from "../Chatbot/config";
 import ActionProvider from "../Chatbot/ActionProvider";
 import MessageParser from "../Chatbot/MessageParser";
 import '../Styles/Chatbot.css';
-import VoiceRecognition from "./VoiceRecognition";
+import VoiceRecognition from "../components/VoiceRecognition";
 const ChatbotPage = () => {
   return (
     <div className="Chat my-4">

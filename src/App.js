@@ -1,14 +1,14 @@
 import './App.css';
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
-import Home from './components/Home';
+import Home from './Pages/Home';
 import Alert from './components/Alert';
-import Chatbot from './components/Chatbot';
+import Chatbot from './Pages/Chatbot';
 import NoteState from './context/Notes/NoteState'
-import Login from './components/Login';
+import Login from './Pages/Login';
 import React, {useState} from 'react';
-import Signup from './components/Signup';
-import AddWord from './components/AddWord';
+import Signup from './Pages/Signup';
+import AddWord from './Pages/AddWord';
 function App() {
   const [alert, setAlert] = useState(null);
   const showAlert =(message, type)=> {

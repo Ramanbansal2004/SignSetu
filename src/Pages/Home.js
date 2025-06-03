@@ -1,7 +1,7 @@
 import React from "react";
-import GetNotes from "./GetNotes";
-import SearchBar from "./SearchBar";
-import ImageCarousel from './ImageCarousel';
+import GetNotes from "../components/GetNotes";
+import SearchBar from "../components/SearchBar";
+import ImageCarousel from '../components/ImageCarousel';
 
 export default function Home(props) {
   const { showAlert } = props;
