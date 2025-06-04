@@ -36,6 +36,14 @@ const GetNotes = (props) => {
   }
   return (
     <>
+      <button
+        ref={ref}
+        type="button"
+        className="btn btn-primary d-none"
+        data-bs-toggle="modal"
+        data-bs-target="#exampleModal"
+      >
+      </button>
       <div
         className="modal fade"
         id="exampleModal"
