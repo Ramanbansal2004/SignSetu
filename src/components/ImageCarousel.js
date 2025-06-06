@@ -2,12 +2,12 @@ import React from "react";
 
 export default function ImageCarousel() {
   const images = [
-    "https://picsum.photos/600",
-    "https://picsum.photos/600",
-    "https://picsum.photos/600",
-    "https://picsum.photos/600",
-    "https://picsum.photos/600",
-    "https://picsum.photos/600",
+    "https://picsum.photos/1200/800?random=1",
+  "https://picsum.photos/1200/800?random=2",
+  "https://picsum.photos/1200/800?random=3",
+  "https://picsum.photos/1200/800?random=4",
+  "https://picsum.photos/1200/800?random=5",
+  "https://picsum.photos/1200/800?random=6",
   ];
 
   return (
