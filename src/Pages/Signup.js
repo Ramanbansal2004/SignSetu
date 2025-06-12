@@ -34,7 +34,8 @@ const Signup = (props) => {
         setCred({...cred, [e.target.name]: e.target.value})
     }
   return (
-    <div>
+    <div className="container my-5">
+      <h2>SignUp to NSR Services</h2>
       <form  onSubmit={handleSubmit}>
         <div className="mb-3">
           <label htmlFor="email" className="form-label">
