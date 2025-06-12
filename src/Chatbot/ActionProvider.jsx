@@ -7,7 +7,7 @@ const ActionProvider = ({ createChatBotMessage, setState, children }) => {
     }
 
     const afterNameMessage = () => {
-        let message = createChatBotMessage("Let me know your age so I can suggest the best treatment for you.")
+        let message = createChatBotMessage("Let me know your age so I can suggest the best problem solution for you.")
         updateState(message, "preference")
     }
 

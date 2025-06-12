@@ -7,7 +7,7 @@ import DipslayImage from '../Component/DipslayImage';
 
 
 const config = {
-    botName: "Booked AI Doctor",
+    botName: "Booked AI Problem Solver",
     initialMessages: [createChatBotMessage(`Welcome, How can I help You!`, {
         widget: "startBtn"
     })],
