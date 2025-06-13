@@ -1,6 +1,5 @@
 import React from 'react'
 import { Link, useLocation, useNavigate } from "react-router-dom";
-
 const Navbar = () => {
   let history= useNavigate();
   let location = useLocation();
