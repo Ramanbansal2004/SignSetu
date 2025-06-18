@@ -4,7 +4,7 @@
 
 .sidebar {
   height: 100vh;
-  background-color: #111;
+  background-color: #1b1717;
   color: #fff;
   width: 200px;
   transition: width 0.3s;
@@ -25,7 +25,6 @@
 .menu {
   list-style: none;
   padding: 0;
-  margin-top: 20px;
 }
 
 .menu li {
