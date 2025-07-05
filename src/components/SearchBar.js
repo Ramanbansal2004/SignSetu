@@ -11,19 +11,18 @@ const SearchBar = () => {
   };
 
   return (
-    <form className="d-flex mb-3 my-1" onSubmit={handleSearch}>
-      <input
-        className="form-control me-2"
-        type="search"
-        placeholder="Search by title..."
-        aria-label="Search"
-        value={query}
-        onChange={(e) => setQuery(e.target.value)}
-      />
-      <button className="btn btn-outline-primary" type="submit">
-        Search
-      </button>
-    </form>
+    <div>
+        <form className="d-flex mb-3 my-1" onSubmit={handleSearch}>
+        <input
+          className="form-control me-2 w-70 justify-content-center"
+          type="search"
+          placeholder="Search by title..."
+          aria-label="Search"
+          value={query}
+          onChange={(e) => setQuery(e.target.value)}
+        />
+      </form>
+    </div>
   );
 };
 
