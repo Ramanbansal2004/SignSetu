@@ -7,7 +7,7 @@ const Signup = (props) => {
     const handleSubmit= async (e)=> {
         e.preventDefault();
         const {name, email, password} =cred
-        const response= await fetch("http://localhost:5000/api/auth/createUser", {
+        const response= await fetch("https://notepad-4d1b.onrender.com/api/auth/createUser", {
             method: "POST",
             headers: {
               'Content-type': 'application/json',
