@@ -1,5 +1,7 @@
-const mongoose = require('mongoose');
-const mongoURI ="mongodb://localhost:27017/Chatbot";
+import dotenv from 'dotenv';
+import mongoose from 'mongoose';
+dotenv.config();
+const mongoURI =process.env.MONGO_URL;
 const connectToMongo = async () => {
     try {
       await mongoose.connect(mongoURI, {
@@ -12,5 +14,4 @@ const connectToMongo = async () => {
       process.exit(1); // Exit process with failure
     }
   };
-
-module.exports = connectToMongo;
+export default connectToMongo;
